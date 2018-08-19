@@ -1,5 +1,5 @@
 .bodycontainer {
-    background-color: #ffffff;
+    background-image: url("../images/background.jpg");
     height: auto;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
@@ -9,11 +9,10 @@
 .aboutmecontainer {
     width: auto;
     padding: 5px 40px 5px 40px;
-    border: 1px solid black;
     margin: 0px 15px 0px 15px;
     justify-content: center;
-    overflow: auto;
-    display: inline-block;
+    display: block;
+    background-color: white;
 }
 
 #me {
@@ -25,8 +24,6 @@
 }
 
 hr {
-    float: right;
-    margin: 0 20px;
     height: 2px;
     border: 0 none;
     background-color: black;
