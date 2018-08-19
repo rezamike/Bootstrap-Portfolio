@@ -4,15 +4,15 @@ body {
 
 .container {
     background-color: white;
-    margin-top: 40px;
+    margin-top: 45px;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
+    padding: 20px 25px 0px 25px;
     width: 75%;
-    margin-bottom: 60px;
+    margin-bottom: 150px;
 }
 
 .nav {
-    padding: 25px 0px 20px 0px;
+    padding: 20px 0px 15px 0px;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
@@ -49,6 +49,7 @@ p {
 .row {
     display: block;
     padding: 10px;
+    height: 100%;
 }
 
 footer {
