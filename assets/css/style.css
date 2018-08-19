@@ -47,4 +47,5 @@ p {
 
 .row {
     display: block;
+    padding: 10px;
 }
