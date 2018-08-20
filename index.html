@@ -7,9 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -19,14 +22,14 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand name" href="index.html"><h1>Michael Reza Sanaiha</h1></a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+            <a class="navbar-brand name float-left" href="index.html"><h1>Michael Reza Sanaiha</h1></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav nav">
+                <div class="navbar-nav nav float-right">
                     <a class="nav-item nav-link active" href="index.html">About Me <span class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link portfolio" href="portfolio.html">Portfolio</a>
                     <a class="nav-item nav-link" href="contact.html">Contact</a>
@@ -36,37 +39,39 @@
     </header>
 
     <div class="container">
-        <div class="row">
-            <h2>About Me</h2>
-            <hr/>
+        <div class="row border-bottom">
+            <div class="col-md">
+                <h2>About Me</h2>
+            </div>
         </div>
         <div class="row">
-            <img id="me" src="assets/images/itsmeinasuit.jpeg" alt="Michael in a suit" />
+            <div class="col-md">
+                <img class="float-left" id="me" src="assets/images/itsmeinasuit.jpeg" alt="Michael in a suit" />
 
-            <p>Like many others, I was captivated by the creative artistry and technical expertise that I encountered on
-                my television screen as a child. When I held a camera for the first time, I grasped the possibility of what
-                my idols in television and filmmaking had been seeing: an empowering opportunity to create another world
-                more awesome than my own. This curiosity quickly propagated into a yearning for personal creativity and a
-                resilient passion for filmmaking that could not be easily satisfied.</p>
+                <p>Like many others, I was captivated by the creative artistry and technical expertise that I encountered
+                    on my television screen as a child. When I held a camera for the first time, I grasped the possibility
+                    of what my idols in television and filmmaking had been seeing: an empowering opportunity to create another
+                    world more awesome than my own. This curiosity quickly propagated into a yearning for personal creativity
+                    and a resilient passion for filmmaking that could not be easily satisfied.</p>
 
-            <p>During my first year of college, I landed an internship in Los Angeles that allowed me to explore a variety
-                of departments within film production and learn invaluable information regarding production logistics. After
-                six months of professional work experience, I then obtained an Associates Degree in Film Production. Immediately
-                following, I continued on to complete my Bachelors Degree at Arizona State University with a concentration
-                in Film Business.</p>
+                <p>During my first year of college, I landed an internship in Los Angeles that allowed me to explore a variety
+                    of departments within film production and learn invaluable information regarding production logistics.
+                    After six months of professional work experience, I then obtained an Associates Degree in Film Production.
+                    Immediately following, I continued on to complete my Bachelors Degree at Arizona State University with
+                    a concentration in Film Business.</p>
 
-            <p>During my schooling, I successfully managed to spearhead many student films as a Producer and Assistant Director
-                as well as work on numerous professional commercial productions in order to advance my ability to work with
-                major clientele. Upon my graduation from ASU, I permanently relocated to Los Angeles to further pursue work
-                opportunities in the film industry.</p>
+                <p>During my schooling, I successfully managed to spearhead many student films as a Producer and Assistant
+                    Director as well as work on numerous professional commercial productions in order to advance my ability
+                    to work with major clientele. Upon my graduation from ASU, I permanently relocated to Los Angeles to
+                    further pursue work opportunities in the film industry.</p>
+            </div>
         </div>
-    </div>
 
-    <div class="fixed-bottom footer">
-        <footer class="container-fluid bg-4 text-center">
-            Copyright&copy;
-        </footer>
-    </div>
+        <div class="fixed-bottom footer">
+            <footer class="container-fluid bg-4 text-center border-top border-info">
+                Copyright&copy;
+            </footer>
+        </div>
 
 </body>
 
