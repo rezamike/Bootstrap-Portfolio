@@ -7,6 +7,10 @@ body {
     background-image: url("../images/background.jpg");
 }
 
+.bg-light {
+    background-color: #ffffff!important;
+}
+
 .navbar-brand {
     padding-bottom: 0;
     margin-bottom: 0 auto;
@@ -35,9 +39,6 @@ nav {
     right: 0;
 }
 
-.navbar-bar {
-}
-
 .navbar {
     padding-left: 0;
     padding-right: 0;
@@ -47,7 +48,6 @@ nav {
 h1 {
     color: white;
     padding: 20px;
-    margin-bottom: 0;
     float: left;
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
