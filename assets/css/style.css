@@ -7,11 +7,16 @@ body {
     background-image: url("../images/background.jpg");
 }
 
+.navbar-brand {
+    padding-bottom: 0;
+    margin-bottom: 0 auto;
+}
+
 header {
-    overflow: auto;
     background-color: #ffffff;
     border-bottom: 3px solid;
     border-color: #cccccc;
+    top: 0;
 }
 
 nav {
@@ -20,23 +25,34 @@ nav {
     height: 80px;
 }
 
+.nav {
+    float: right;
+    padding: 20px 0px 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    opacity: .8;
+    font-size: 18px;
+    right: 0;
+}
+
+.navbar-bar {
+}
+
 .navbar {
     padding-left: 0;
     padding-right: 0;
-}
-
-.name {
-    position: left;
+    height: 80px;
 }
 
 h1 {
-    position: top;
     color: white;
     padding: 20px;
-    margin: auto;
+    margin-bottom: 0;
     float: left;
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    height: auto;
 }
 
 .portfolio {
@@ -52,16 +68,6 @@ h1 {
     padding: 20px 25px 0px 25px;
     width: 960px;
     margin-bottom: 150px;
-}
-
-.nav {
-    float: right;
-    margin: auto;
-    padding: 20px 0px 20px 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
-    opacity: .8;
-    font-size: 18px;
 }
 
 #me {
