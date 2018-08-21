@@ -13,34 +13,19 @@ body {
 
 header {
     background-color: #ffffff;
-    top: 0;
-}
-
-nav {
-    margin: auto;
-    height: 80px;
 }
 
 .nav {
-    padding: 20px 0px 20px 0px;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     opacity: .8;
     font-size: 18px;
-    right: 0;
-}
-
-.navbar {
-    padding-left: 0;
-    padding-right: 0;
-    height: 80px;
 }
 
 h1 {
-    color: white;
-    padding: 20px;
-    background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    width: auto;
+    text-align: center;
 }
 
 .portfolio {
@@ -51,11 +36,10 @@ h1 {
 
 .container {
     background-color: #ffffff;
-    margin-top: 45px;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 20px 25px 0px 25px;
-    width: 960px;
-    margin-bottom: 150px;
+    padding-top: 20px;
+    margin: auto;
+    top: 45px;
 }
 
 #me {
